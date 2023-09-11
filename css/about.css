@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+header{
+  border-bottom: 1px solid #8e8787;
+  box-shadow: 0 0 12px;
+}
+.navbar{
+  display: flex;
+  justify-content:center;
+  width: 100vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+.logo{
+  margin-left: 5%;
+  color: #28157d;
+  font-size: 25px;
+  font-weight: bold;
+}
+.logo_header{
+  display: flex;
+  margin-left: 2%;
+}
+header section.wrapper{
+  display: flex;
+  justify-content:space-around;
+}
+.main_nav{
+  display: flex;
+  width: 100%;
+  float: right;
+  margin-right: 2%;
+  justify-content:space-evenly;
+  list-style: none;
+}
+.main_nav li:hover{
+  /* background-color: gray */
+}
+.navbar_toggle{
+  display: none;
+}
+.main_nav li{
+  display: inline;
+  color: #ffffff;
+}
+.main_nav li a{
+  color: #efefef;
+  font-size: 17px;
+}
+header h1 a{
+    padding: 30px;
+}
+header nav{
+} 
+ header ul li a{
+    margin-left: 15px;
+} 
+header ul  a{
+    padding: 10px;
+    display: block;
+    color: #ebe7e7;
+}  
+header .home{
+    background: rgb(4, 4, 63);
+    border-radius: 6px;
+    color: #fff;
+} 
+ header .about{
+    background: rgb(4, 4, 63);
+    border-radius: 6px;
+    color: #fff;
+}
+header .Contact{
+    background: rgb(4, 4, 63);
+    border-radius: 6px;
+    color: #fff;
+}
+header .Privacy{
+    background: rgb(4, 4, 63);
+    border-radius: 6px;
+    color: #fff;
+}
+ header .domo{
+    background: rgb(4, 4, 63);
+    border-radius: 6px;
+    color: #fff;
+}
+header .right{
+    width: 500px;
+}
+ header .facebook{
+    font-size: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(24, 24, 201);
+}
+ header .twitte{
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    width: 40px;
+    background: rgb(24, 24, 201);
+    margin-left: 10px;
+}  
+header .instagram{
+    height: 40px;
+    border-radius: 5px;
+    width: 40px;
+    color: #fff;
+    background: linear-gradient(red, yellow, red);
+    margin-left: 10px;
+}
+header .apple{
+    font-size: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    background: rgb(219, 12, 12);
+    margin-left: 10px;
+}
+header .moon-outline{
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    width: 40px;
+    background: rgb(5, 4, 4);
+    margin-left: 10px;
+} 
+
+
+section.max{
+
+}
+section.wrapper{
+ display: flex;
+ flex-wrap: wrap;
+}
+section.wrapper img{
+  width: 818px;
+}
+  
+.css{
+  width: 100%;
+  display: flex;
+ 
+}
+.css img{
+  width: 100%;
+}
+
+.scss{
+
+}
+.scss h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+
+}
+.left p{
+    line-height: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+     max-width: 100%;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background:#000000 ;
+}
+footer section.wrapper{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+footer ul li{
+    line-height: 25px;
+}
+footer ul li a{
+    color: #fff;
+    padding: 0px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+footer ul li a:hover{
+    color: rgb(28, 32, 138);
+}
+footer h1{
+    color: #fff;
+    border-bottom:1px solid ;
+    margin-top: 10px;
+}
+
+.top {
+    text-align: center;
+}
+.top p{
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+}
+@media all  and (max-width : 1440px){
+    header .home{
+        width: 100%;
+      
+    }
+    .main_nav li a{
+        font-size: 10px;
+    }
+    section.wrapper img{
+      width: 50%;
+    }
+    
+}
+@media all and (max-width : 1024px){
+    .main_nav li a{
+        width: 100%;
+        font-size: 10px;
+        padding: 6px;
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width : 786px){
+   
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100vw;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      background-color: #030303;
+      font-size: 20px;
+    }
+    header .right{
+        width: 250px;
+    }
+    .main_nav{
+      display: none;
+      color: #000;
+    }
+    .show_nav{
+      padding-top: 2%;
+      display: flex;
+      /* width: 100vw; */
+      height: 100vh;
+      flex-direction: column;
+      background-color: rgb(241, 241, 241);
+      justify-content: flex-start;
+    }
+    .main_nav li{
+      width:100%;
+      height: 50px;
+      font-size: 25px;
+      justify-content: center;
+      text-align: center;
+      padding: 0%;
+    }
+    .navbar_toggle {
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 30px;
+      color: #ffffff;
+      background: transparent;
+      border-color: transparent;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      display: block;
+    }
+    .logo_header{
+      width: 90%;
+      justify-content: space-between;
+      margin-right: 2%;
+    }
+    .logo{
+        color: #efebeb;
+        text-align: center;
+    }
+    header .facebook{
+        font-size: 20px;
+        border-radius: 5px;
+        color: #fff;
+        background: rgb(24, 24, 201);
+    }
+     header .twitte{
+        border-radius: 5px;
+        height: 20px;
+        color: #fff;
+        width: 40px;
+        background: rgb(24, 24, 201);
+        margin-left: 10px;
+    }  
+    header .instagram{
+        height: 20px;
+        border-radius: 5px;
+        width: 20px;
+        color: #fff;
+        background: linear-gradient(red, yellow, red);
+        margin-left: 10px;
+    }
+    header .apple{
+        font-size: 10px;
+        border-radius: 5px;
+        height: 20px;
+        width: 40px;
+        color: #fff;
+        background: rgb(219, 12, 12);
+        margin-left: 10px;
+    }
+    header .moon-outline{
+        height: 20px;
+        color: #fff;
+        border-radius: 5px;
+        width: 40px;
+        background: rgb(227, 227, 227);
+        margin-left: 10px;
+        color: #000;
+    }
+    .css{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    footer h1{
+      font-size: 18px;
+    }
+    header .about{
+      background: none;
+    }
+    header .about:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .Contact{
+      background: none;
+    }
+    header .Contact:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .Privacy{
+      background: none;
+    }
+    header .Privacy:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .domo{
+      background: none;
+    }
+    header .domo:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .home{
+      background: none;
+    }
+    header .home:hover{
+      color: rgb(33, 20, 148);
+    }
+    .show_nav{
+      padding-top: 2%;
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      background-color: rgb(11, 40, 8);
+      justify-content: flex-start;
+    }
+  } 
+@media all and (max-width:320px){
+    .max ul li a{
+        background: #080a57;
+        color: #fff;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    
+    header ul{
+        width: 50%;
+        font-size: 10px;
+    }
+    header .home{
+      background: none;
+    }
+    header .home:hover{
+      color: rgb(33, 20, 148);
+    }
+    .show_nav{
+      padding-top: 2%;
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      background-color: rgb(2, 2, 2);
+      justify-content: flex-start;
+    }
+    header .about{
+      background: none;
+    }
+    header .about:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .Contact{
+      background: none;
+    }
+    header .Contact:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .Privacy{
+      background: none;
+    }
+    header .Privacy:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .domo{
+      background: none;
+    }
+    header .domo:hover{
+      color: rgb(33, 20, 148);
+    }
+    header .right{
+      text-align: center;
+      margin-left: 40px;
+ 
+    }
+    .css img{
+      width: 100%;
+    }
+    .left p{
+      max-width: 100%;
+      width: 600px;
+      padding: 15px;
+      line-height: 20px;
+    }
+    section.wrapper img{
+      width: 100%;
+    }
+    footer section.wrapper{
+      display: flex;
+      flex-wrap: wrap;
+     background: #000;
+    }
+    .top p{
+      margin-top: 200px;
+    }
+    
+  }
